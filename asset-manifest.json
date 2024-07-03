@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/boufouss/static/css/main.d2828ca0.css",
+    "main.js": "/boufouss/static/js/main.be0007f4.js",
+    "index.html": "/boufouss/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.d2828ca0.css",
+    "static/js/main.be0007f4.js"
+  ]
+}
