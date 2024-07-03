@@ -1,8 +1,8 @@
 {
     "name": "react-portfolio",
     "version": "0.1.0",
+    "homepage": "https://boufoussmed.github.io/boufouss",
     "private": true,
-    "homepage": "http://boufouss.github.io",
     "dependencies": {
         "bootstrap": "^5.2.3",
         "emailjs-com": "^3.2.0",
@@ -20,12 +20,13 @@
         "yarn": "^1.22.22"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "yarn build && copy build/index.html build/404.html",
-        "deploy": "gh-pages -d build"
+        "eject": "react-scripts eject"
+        
     },
     "eslintConfig": {
         "extends": [
